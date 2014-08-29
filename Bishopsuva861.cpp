@@ -2,12 +2,12 @@
 // Author: Diaa Abdallah
 
 #include <iostream>
-#include <vector>
 #include <math.h>
 #include <cstdlib>
 using namespace std;
 int board_size;
 int board_sizeSqrt;
+
 bool isInDiagonal(int a,int b,int n)
 {
 	int aRow=a/n;
